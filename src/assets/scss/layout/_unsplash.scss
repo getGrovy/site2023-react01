@@ -1,0 +1,81 @@
+// unsplash__wrap
+.unsplash__wrap {
+  overflow: hidden;
+}
+.unsplash__inner {
+  height: 560px;
+
+  .unsplash__text {
+    h3 {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 22px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+    a {
+      @include border(50px);
+    }
+  }
+  .unsplash__item {
+    @include flex-between;
+    margin-top: 70px;
+    position: absolute;
+
+    > div {
+      width: 400px;
+      margin-right: 20px;
+
+      img {
+        width: 100%;
+        @include border(10px);
+      }
+    }
+  }
+}
+
+// unsplash__page
+.unsplash__cont {
+  ul {
+    column-count: 4;
+    column-gap: 20px;
+
+    li {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// unsplash__search
+.unsplash__search {
+  margin-bottom: 50px;
+  text-align: center;
+
+  input {
+    border: 1px solid #e8ecf2;
+    font-size: 16px;
+    padding: 10px 20px;
+    @include border(50px);
+    min-width: 300px;
+    margin-right: 10px;
+    font-family: "GmarketSans";
+  }
+
+  button {
+    @include button(#f7100d, #fff);
+    @include border(50px);
+    font-family: "GmarketSans";
+  }
+}
+.unsplash__slider {
+  .mySwiper {
+    margin-bottom: 100px; /* 적절한 값으로 변경해주세요 */
+    img {
+      width: 400px;
+      height: 300px;
+      background-position: center center;
+    }
+  }
+}
