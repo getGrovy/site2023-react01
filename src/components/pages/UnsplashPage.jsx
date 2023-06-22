@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Contents from "../layout/Contents";
 import UnsplashSlider from "../unsplash/UnsplashSlider";
 import UnsplashSearch from "../unsplash/UnsplashSearch";

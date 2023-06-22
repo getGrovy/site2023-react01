@@ -9,7 +9,7 @@ const Footer = (props) => {
           <p>
             질문 환영 🥳 <br />
             궁금한 사항은 메일로 연락주세요!
-            <a href="mailto:getgrovy@gmail.com">getgrovy@gmail.com</a>
+            <link href="mailto:getgrovy@gmail.com">getgrovy@gmail.com</link>
           </p>
           <ul className="sns">
             <li>
