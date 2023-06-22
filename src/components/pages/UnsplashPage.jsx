@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import Contents from "../layout/Contents";
 import UnsplashSlider from "../unsplash/UnsplashSlider";
 import UnsplashSearch from "../unsplash/UnsplashSearch";
-// import UnsplashTag from "../unsplash/UnsplashTag";
+
 import UnsplashCont from "../unsplash/UnsplashCont";
 import ContTitle from "../layout/ContTitle";
 
@@ -38,7 +38,6 @@ const UnsplashPage = () => {
       <ContTitle title="unsplash" />
       <UnsplashSlider unsplashImg={images} />
       <UnsplashSearch onSearch={search} />
-      {/* <UnsplashTag /> */}
       <UnsplashCont images={images} />
     </Contents>
   );

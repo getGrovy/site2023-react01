@@ -1,6 +1,6 @@
 import React from "react";
 import IntroItem from "./IntroItem";
-const IntroCont = ({}) => {
+const IntroCont = () => {
   return (
     <div className="intro__cont container">
       <IntroItem />
