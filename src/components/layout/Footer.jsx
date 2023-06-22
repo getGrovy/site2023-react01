@@ -7,9 +7,9 @@ const Footer = (props) => {
         <div className="footer__text">
           <h5>getgrovy</h5>
           <p>
-            질문 환영 🥳 <br />
+            질문 환영 해요 !🥳 <br />
             궁금한 사항은 메일로 연락주세요!
-            <link href="mailto:getgrovy@gmail.com">getgrovy@gmail.com</link>
+            <a href="mailto:getgrovy@gmail.com">getgrovy@gmail.com</a>
           </p>
           <ul className="sns">
             <li>
